@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 
-namespace AadharAuthService
+namespace AuthenticationService
 {
     public class Program
     {
@@ -18,12 +18,12 @@ namespace AadharAuthService
                 .AddEnvironmentVariables(prefix: "ASPNETCORE_")
                 .Build();
 
-            var hostUrl = "http://0.0.0.0:6000";
+            //var hostUrl = "http://0.0.0.0:6000";
 
             var host = new WebHostBuilder()
                 .UseConfiguration(config)
                 .UseKestrel()
-                .UseUrls(hostUrl)
+                .UseUrls()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()

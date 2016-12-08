@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using AadharAuthService.Models;
+using AuthenticationService.Models;
 
-namespace AadharAuthService.Services
+namespace AuthenticationService.Services
 {
     public interface IUserService
     {

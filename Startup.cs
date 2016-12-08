@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using AadharAuthService.ServiceInstaller;
+using AuthenticationService.ServiceInstaller;
 
-namespace AadharAuthService
+namespace AuthenticationService
 {
     public class Startup
     {

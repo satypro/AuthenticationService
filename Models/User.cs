@@ -1,4 +1,4 @@
-namespace AadharAuthService.Models
+namespace AuthenticationService.Models
 {
     public class User
     {

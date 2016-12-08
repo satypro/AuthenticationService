@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using AadharAuthService.Models;
-using AadharAuthService.Services;
+using AuthenticationService.Models;
+using AuthenticationService.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AadharAuthService.Controllers
+namespace AuthenticationService.Controllers
 {
     [Route("api/[controller]")]
     public class UsersController : Controller

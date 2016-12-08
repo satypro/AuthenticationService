@@ -1,7 +1,7 @@
-using AadharAuthService.Services;
+using AuthenticationService.Services;
 using Autofac;
 
-namespace AadharAuthService.ServiceInstaller
+namespace AuthenticationService.ServiceInstaller
 {
     public class DependencyModule : Module
     {
