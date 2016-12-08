@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthenticationService", "AuthenticationService.xproj", "{2979F773-13E4-4864-82D3-31F94D66B998}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aadhar.Authentication", "..\Aadhar.Authentication\Aadhar.Authentication.xproj", "{E296AEDC-BCA4-46DB-BECF-3986D1C84143}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2979F773-13E4-4864-82D3-31F94D66B998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2979F773-13E4-4864-82D3-31F94D66B998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2979F773-13E4-4864-82D3-31F94D66B998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2979F773-13E4-4864-82D3-31F94D66B998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E296AEDC-BCA4-46DB-BECF-3986D1C84143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E296AEDC-BCA4-46DB-BECF-3986D1C84143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E296AEDC-BCA4-46DB-BECF-3986D1C84143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E296AEDC-BCA4-46DB-BECF-3986D1C84143}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
